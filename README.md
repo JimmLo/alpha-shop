@@ -23,11 +23,13 @@ npm install
 npm start
 ```
 
-5. 在瀏覽器中輸入以下網址：http://localhost:3000，程式將會在瀏覽器中運行。如果成功執行，您將會看到以下訊息：
+如果成功執行，您將會看到以下訊息：
 
 ```
 webpack compiled successfully
 ```
+
+5. 在瀏覽器中輸入以下網址：http://localhost:3000。即可查看網頁
 
 ## 專案結構
 
