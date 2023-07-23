@@ -1,7 +1,9 @@
 import './App.css';
-import StepProgress from './components/Main/stepProgress/step';
-import ProgressControl from './components/Main/progressControl/progressControl';
-import RegisterForm, { CreditCardForm, ShippingForm } from './components/Main/form/form';
+import StepProgress from './components/Main/StepProgress/Step';
+import ProgressControl from './components/Main/ProgressControl/ProgressControl';
+import RegisterForm from './components/Main/Form/RegisterForm';
+import CreditCardForm from './components/Main/Form/CreditCardForm';
+import ShippingForm from './components/Main/Form/ShippingForm';
 
 function App() {
   return (
@@ -12,7 +14,7 @@ function App() {
             <h2 className="register-title">結帳</h2>
             <StepProgress />
             <RegisterForm
-              formTitle={'寄送地址'} 
+              formTitle={'寄送地址'}
             />
             {/* <ShippingForm
               formTitle={'運送方式'}

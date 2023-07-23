@@ -1,6 +1,4 @@
-import styles from './form.module.css'
-
-
+import styles from './Form.module.css'
 
 export default function RegisterForm({formTitle }) {
     return (
@@ -84,70 +82,5 @@ export default function RegisterForm({formTitle }) {
     )
 }
 
-export function ShippingForm ({formTitle}){
-  return(
-      <div className={styles.formContainer}>
-        <form className={styles.form} data-phase="shipping">
-          <h3 className={styles.formTitle}>{formTitle}</h3>
-          <section className="formBody">
-            <label className={styles.radioGroup} data-price="0">
-              <input id="shipping-standard" type="radio" name="shipping"  checked/>
-              <div className={styles.radioInfo}>
-                <div className={styles.wayAndPriceContainer}>
-                  <div className={styles.wayText}>標準運送</div>
-                  <div className="price"></div>
-                </div>
-                <div className={styles.periodText}>約 3~7 個工作天</div>
-              </div>
-              <div className={styles.radioBoxBorder}></div>
-            </label>
-            <label className={styles.radioGroup} data-price="500">
-              <input id="shipping-dhl" type="radio" name="shipping" />
-              <div className={styles.radioInfo}>
-                <div className={styles.wayAndPriceContainer}>
-                  <div className={styles.wayText}>DHL 貨運</div>
-                  <div className="price"></div>
-                </div>
-                <div className={styles.periodText}>48 小時內送達</div>
-              </div>
-              <div className={styles.radioBoxBorder}></div>
-            </label>
-          </section>
-        </form>
-      </div>
-    )
-}
 
-export function CreditCardForm ({formTitle}) {
-  return(
-    <div className={styles.formContainer}>
-      <form class={styles.form} data-phase="credit-card">
-        <h3 class={styles.formTitle}>{formTitle}</h3>
-        <section class="formBody">
-          <div class={styles.inputRow}>
-            <div class={styles.inputGroupW4}>
-              <div class={styles.inputLabel}>持卡人姓名</div>
-              <input type="text" placeholder="John Doe" />
-            </div>
-          </div>
-          <div class={styles.inputRow}>
-            <div class={styles.inputGroupW4}>
-              <div class={styles.inputLabel}>卡號</div>
-              <input type="text" placeholder="1111 2222 3333 4444" />
-            </div>
-          </div>
-          <div class={styles.inputRow}>
-            <div class={styles.inputGroupW3}>
-              <div class={styles.inputLabel}>有效期限</div>
-              <input type="text" placeholder="MM/YY" />
-            </div>
-            <div class={styles.inputGroupW3}>
-              <div class={styles.inputLabel}>CVC / CCV</div>
-              <input type="text" placeholder="123" />
-            </div>
-          </div>
-        </section>
-      </form>
-    </div>
-  )
-}
+
