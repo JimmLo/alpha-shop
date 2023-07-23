@@ -8,7 +8,7 @@
 2. 開啟終端機 (Terminal)，進入您想要存放此專案的本地位置，然後執行以下指令來複製專案：
 
 ```
-git clone https://github.com/JimmLo/alpha_shop.git
+git clone https://github.com/JimmLo/alpha-shop.git
 ```
 
 3. 進入存放此專案的資料夾，並在終端機中執行以下指令進行相依套件的安裝：
