@@ -1,0 +1,45 @@
+.progressControlContainer {
+    position: absolute;
+    left: 0px;
+    right: 50%;
+    bottom: 0px;
+}
+
+.buttonGroup {
+    padding-top: 24px;
+    border-top: 1px solid #E6E6EB;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 0px;
+    justify-content: center;
+}
+
+.controlNext {
+    display: flex;
+    align-items: center;
+    height: 46px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+    padding: 0px;
+    justify-content: center;
+    width: 174px;
+    font-weight: 500;
+    line-height: 17px;
+    background: #F67599;
+    color: #FFFFFF;
+    margin-left: auto;
+}
+
+.cusorPoint{
+    cursor: pointer;
+}
