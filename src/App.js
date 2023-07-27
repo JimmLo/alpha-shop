@@ -4,6 +4,7 @@ import ProgressControl from './components/Main/ProgressControl/ProgressControl';
 import RegisterForm from './components/Main/Form/RegisterForm';
 import CreditCardForm from './components/Main/Form/CreditCardForm';
 import ShippingForm from './components/Main/Form/ShippingForm';
+import Cart from './components/Main/Cart/Cart';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
               formTitle={'付款資訊'}
             /> */}
           </section>
+          <Cart />
           <ProgressControl />
 
         </div>
